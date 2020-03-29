@@ -7,7 +7,7 @@ chrome.runtime.getBackgroundPage(function(bg) {
   if (bg.download_url.length >= 1) {
     if (bg.download_url.length >= 1){
       var warningText = document.createElement("p")
-      warningText.innerHTML = "Warning! There may be a file without audio!";
+      warningText.innerHTML = "Warning! There may be a file without audio! The one with audio is most likely the first one";
       warningText.style.color = "red";
       document.body.appendChild(warningText);
     }
