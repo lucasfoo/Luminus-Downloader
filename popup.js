@@ -19,8 +19,9 @@ chrome.runtime.getBackgroundPage(function(bg) {
       document.body.appendChild(commandText);
       var copyButton = document.createElement("button");
       copyButton.innerHTML = "Copy to clipboard";
+      copyButton.name = url;
       copyButton.onclick = function(element) {
-        copyTextToClipboard(command);
+        copyTextToClipboard(copyButton.name);
       };
       document.body.appendChild(copyButton);
     });
