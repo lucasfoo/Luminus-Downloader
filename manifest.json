@@ -1,0 +1,34 @@
+{
+    "name": "Luminus Downloader",
+    "version": "1.0",
+    "description": "By Lucas Foo",
+    "permissions": [
+        "webNavigation",
+        "activeTab",
+        "declarativeContent",
+        "webRequest",
+        "background",
+        "https://*.nus.edu.sg/",
+        "https://*.panopto.com/"
+        ],
+    "icons": {
+        "128" : "images/baseline_arrow_downward_black_18dp.png"
+      },
+
+    
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    },
+
+
+    "page_action" :
+    {
+      "default_icon" : "images/baseline_arrow_downward_black_18dp.png",
+      "default_popup": "popup.html"
+    },
+
+    
+    "manifest_version": 2
+  }
+
