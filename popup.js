@@ -5,7 +5,7 @@ let detected = document.getElementById("video_detected");
 chrome.runtime.getBackgroundPage(function(bg) {
   console.log(bg.download_url)
   if (bg.download_url.length >= 1) {
-    if (bg.download_url.length >= 1){
+    if (bg.download_url.length > 1){
       var warningText = document.createElement("p")
       warningText.innerHTML = "Warning! There may be a file without audio! The one with audio is most likely the first one";
       warningText.style.color = "red";

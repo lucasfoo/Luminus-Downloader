@@ -8,8 +8,8 @@ Allows for the download of:
 
 ## Installation
 
-1. Download the latest release from the [releases](https://github.com/lucasfoo/Luminus-Downloader/releases) page.
-2. Drag and drop the crx file into your [extensions](chrome://extensions/) page
+1. Clone the repo.
+2. Go to Chrome's [extensions](chrome://extensions/) page, click load unpacked and select this repo.
 3. Download [FFmpeg](https://www.ffmpeg.org/download.html)
 
 ## Usage

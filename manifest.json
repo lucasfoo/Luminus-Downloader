@@ -9,7 +9,8 @@
         "webRequest",
         "background",
         "https://*.nus.edu.sg/",
-        "https://*.panopto.com/"
+        "https://*.panopto.com/",
+        "https://mediaweb.ap.panopto.com/"
         ],
     "icons": {
         "128" : "images/baseline_arrow_downward_black_18dp.png"

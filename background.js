@@ -33,6 +33,12 @@ chrome.runtime.onInstalled.addListener(function() {
             urlContains: "https://luminus.nus.edu.sg/modules/",
             urlContains: "web-lectures"
           }
+        }),
+        new chrome.declarativeContent.PageStateMatcher({
+          pageUrl: {
+            urlContains: "https://mediaweb.ap.panopto.com//",
+            urlContains: "Panopto"
+          }
         })
       ],
       actions: [new chrome.declarativeContent.ShowPageAction()]
