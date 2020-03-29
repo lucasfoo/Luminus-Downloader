@@ -1,5 +1,5 @@
 # Luminus-Downloader
-A downloader for Luminus(NUS e-learning portal) videos!
+A chrome extension to download Luminus(NUS e-learning portal) videos!
 
 ## Features
 Allows for the download of:
@@ -9,7 +9,8 @@ Allows for the download of:
 ## Installation
 
 1. Download the latest release from the [releases](https://github.com/lucasfoo/Luminus-Downloader/releases) page.
-2. Download [FFmpeg](https://www.ffmpeg.org/download.html)
+2. Drag and drop the crx file into your [extensions](chrome://extensions/) page
+3. Download [FFmpeg](https://www.ffmpeg.org/download.html)
 
 ## Usage
 
